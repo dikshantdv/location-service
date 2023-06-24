@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
   });
 });
 
-const port = 8080;
+const port = 80;
 server.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
