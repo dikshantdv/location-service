@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  carosiast-frontend:
+    build: .
+    container_name: carosiast-frontend
+    image: carosiast-frontend:1.7.0
+    restart: unless-stopped
+    ports:
+      - "8080:80"
